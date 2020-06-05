@@ -32,4 +32,5 @@ Shim that allows use of DawnBringer's color analysis tool from the command-line 
 
 ## License
 This code is under the MIT License (see LICENSE)
+
 Attribution welcome, but not required
