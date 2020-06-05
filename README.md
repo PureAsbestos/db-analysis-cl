@@ -1,6 +1,10 @@
 # DB Analysis CL
 Shim that allows use of DawnBringer's color analysis tool from the command-line via Lua-GD.
 
+## Requirements
+- Lua
+- [Lua-GD](https://www.ittner.com.br/lua-gd/)
+
 ## How to Use
 - Move the appropriate files from DB Toolbox into place:
   - `ffonts/font_mini_3x4.lua`
