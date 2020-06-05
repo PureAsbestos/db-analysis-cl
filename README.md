@@ -30,3 +30,6 @@ Shim that allows use of DawnBringer's color analysis tool from the command-line 
 - (0 or 1) Sat Mode: HSV/HSB
 - (0 or 1) Sat Mode: HSL
 
+## License
+This code is under the MIT License (see LICENSE)
+Attribution welcome, but not required
