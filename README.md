@@ -2,7 +2,7 @@
 Shim that allows use of DawnBringer's color analysis tool from the command-line via Lua-GD.
 
 ## Requirements
-- Lua
+- A Lua runtime
 - [Lua-GD](https://www.ittner.com.br/lua-gd/)
 
 ## How to Use
