@@ -46,7 +46,7 @@ sudo luarocks make
 cd ..
 rm -rf lua-gd
 ```
-You'll then have to run the script with `luajit analysis.lua ...` instead of `lua analysis.lua`.
+You'll then have to run the script with `luajit analysis.lua ...` instead of `lua analysis.lua ...`.
 
 ### The pound symbol
 In Bash, you cannot prefix your colors with `#` because that character is used to denote comments. You'll need to either remove it, or escape it with a backslash ( `\` ).
