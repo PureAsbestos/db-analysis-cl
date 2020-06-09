@@ -67,14 +67,14 @@ end
 
 num_colors = image:colorsTotal()
 
--- fill in full size of palette
-while image:colorsTotal() < 256 do
-    image:colorAllocate(image:red(0), image:green(0), image:blue(0))
-end
-
 -- initialize foreground and background colors
 fg = image:colorClosest(255, 255, 255)
 bg = image:colorClosest(0, 0, 0)
+ 
+-- fill in full size of palette
+while image:colorsTotal() < 256 do
+    image:colorAllocate(image:red(bg), image:green(bg), image:blue(bg))
+end
 
 --[-------------]--
 
