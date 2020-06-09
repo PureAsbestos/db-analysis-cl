@@ -4,7 +4,7 @@
 
 
 -- this script requires lua-gd
-require("gd")
+gd = require("gd")
 
 
 --[ HELPER FUNCTIONS ]--
