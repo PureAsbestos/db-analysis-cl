@@ -49,7 +49,7 @@ rm -rf lua-gd
 You'll then have to run the script with `luajit analysis.lua ...` instead of `lua analysis.lua ...`.
 
 ### The pound symbol
-In Bash, you cannot prefix your colors with `#` because that character is used to denote comments. You'll need to either remove it, or escape it with a backslash ( `\` ).
+In Bash, you cannot prefix your colors with `#` because that character is used to denote comments. You'll need to remove it, escape it with a backslash ( `\` ), or enclose the palette in quotes.
 
 ## License
 This code is under the MIT License (see LICENSE)
