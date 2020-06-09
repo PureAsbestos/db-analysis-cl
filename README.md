@@ -11,7 +11,6 @@ Shim that allows use of DawnBringer's color analysis tool from the command-line 
   - `libs/dawnbringer_lib.lua`
   - `libs/db_text.lua`
   - `scripts/pic_db_AnalyzePalette18.lua`
-- `cd` into the `scripts` folder.
 - Run `analysis.lua`, passing arguments in the following format: `lua analysis.lua hex_color_1,hex_color_2,... [filename] [NOBG,CBW1,CBW2,dia_sat1,dia_sat2,dia_sat3,sat_mod1,sat_mod2,sat_mod3]`
 
 ### The arguments:
