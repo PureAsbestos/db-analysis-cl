@@ -15,10 +15,12 @@ function script_path()
    return str:match("(.*[/\\])") or "./"
 end
 
--- redefine dofile to work relative to the scripts folder
+BASE_DIR = script_path().."scripts/"
+
+-- redefine dofile to work relative to the base directory
 old_dofile = dofile
 function dofile (filename)
-    return old_dofile(script_path().."scripts/"..filename)
+    return old_dofile(BASE_DIR..filename)
 end
 
 -- unpack for lua < 5.2
