@@ -47,6 +47,7 @@ cd ..
 rm -rf lua-gd
 ```
 
+### The pound symbol
 You should also note that in bash, you cannot prefix your colors with `#` because that character is used to denote comments. You'll need to either remove it, or escape it with a backslash ( `\` ).
 
 ## License
