@@ -30,6 +30,25 @@ Shim that allows use of DawnBringer's color analysis tool from the command-line 
 - (0 or 1) Sat Mode: HSV/HSB
 - (0 or 1) Sat Mode: HSL
 
+## Information for linux users
+### Installing lua-gd
+You may have trouble installing lua-gd. Here's how I was able to install luajit and lua-gd on Ubuntu:
+```bash
+sudo apt install git
+sudo apt install make
+sudo apt install luajit
+sudo apt install luarocks
+sudo apt install libgd-dev
+git clone https://github.com/ittner/lua-gd.git
+cd lua-gd
+sed -i "s/LUABIN=lua5.1/LUABIN=luajit/" Makefile
+sudo luarocks make
+cd ..
+rm -rf lua-gd
+```
+
+You should also note that in bash, you cannot prefix your colors with `#` because that character is used to denote comments. You'll need to either remove it, or escape it with a backslash ( `\` ).
+
 ## License
 This code is under the MIT License (see LICENSE)
 
