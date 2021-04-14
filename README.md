@@ -52,6 +52,6 @@ You'll then have to run the script with `luajit analysis.lua ...` instead of `lu
 In Bash, you cannot prefix your colors with `#` because that character is used to denote comments. You'll need to remove it, escape it with a backslash ( `\` ), or enclose the palette in quotes.
 
 ## License
-This code is under the MIT License (see LICENSE)
+This code is under the MIT License (see [LICENSE](/LICENSE))
 
 Attribution welcome, but not required
