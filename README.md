@@ -1,5 +1,5 @@
 # DB Analysis CL
-Shim that allows use of DawnBringer's color analysis tool from the command-line via Lua-GD.
+A shim that allows use of DawnBringer's color analysis tool from the command-line via Lua-GD.
 
 ## Requirements
 - A Lua runtime
