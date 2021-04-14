@@ -7,7 +7,7 @@ Shim that allows use of DawnBringer's color analysis tool from the command-line 
 - [DB's TOOLBOX](http://pixeljoint.com/forum/forum_posts.asp?TID=26080)
 
 ## How to Use
-- Move the appropriate files from DB Toolbox into place:
+- Move the appropriate files from DB's Toolbox into place:
   - `ffonts/font_mini_3x4.lua`
   - `libs/dawnbringer_lib.lua`
   - `libs/db_text.lua`
