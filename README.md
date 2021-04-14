@@ -4,6 +4,7 @@ Shim that allows use of DawnBringer's color analysis tool from the command-line 
 ## Requirements
 - A Lua runtime
 - [Lua-GD](https://www.ittner.com.br/lua-gd/)
+- [DB's TOOLBOX](http://pixeljoint.com/forum/forum_posts.asp?TID=26080)
 
 ## How to Use
 - Move the appropriate files from DB Toolbox into place:
